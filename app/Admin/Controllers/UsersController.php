@@ -27,13 +27,11 @@ class UsersController extends AdminController
         $grid = new Grid(new User());
 
         $grid->column('id', __('Id'));
-        $grid->column('name', __('Name'));
-        $grid->column('email', __('Email'));
-        $grid->column('email_verified_at', __('Email verified at'));
-        $grid->column('password', __('Password'));
-        $grid->column('remember_token', __('Remember token'));
-        $grid->column('created_at', __('Created at'));
-        $grid->column('updated_at', __('Updated at'));
+        $grid->column('name', __('姓名'));
+        $grid->column('email', __('邮箱'));
+//        $grid->column('password', __('密码'));
+        $grid->column('created_at', __('创建时间'));
+        $grid->column('updated_at', __('更新时间'));
 
         return $grid;
     }
@@ -49,13 +47,11 @@ class UsersController extends AdminController
         $show = new Show(User::findOrFail($id));
 
         $show->field('id', __('Id'));
-        $show->field('name', __('Name'));
-        $show->field('email', __('Email'));
-        $show->field('email_verified_at', __('Email verified at'));
-        $show->field('password', __('Password'));
-        $show->field('remember_token', __('Remember token'));
-        $show->field('created_at', __('Created at'));
-        $show->field('updated_at', __('Updated at'));
+        $show->field('name', __('姓名'));
+        $show->field('email', __('邮箱'));
+        $show->field('password', __('密码'));
+        $show->field('created_at', __('创建时间'));
+        $show->field('updated_at', __('更新时间'));
 
         return $show;
     }
@@ -69,11 +65,11 @@ class UsersController extends AdminController
     {
         $form = new Form(new User());
 
-        $form->text('name', __('Name'));
-        $form->email('email', __('Email'));
-        $form->datetime('email_verified_at', __('Email verified at'))->default(date('Y-m-d H:i:s'));
-        $form->password('password', __('Password'));
-        $form->text('remember_token', __('Remember token'));
+        $form->text('name', __('姓名'));
+        $form->email('email', __('邮箱'));
+//        $form->datetime('email_verified_at', __('Email verified at'))->default(date('Y-m-d H:i:s'));
+        $form->password('password', __('密码'));
+//        $form->text('remember_token', __('Remember token'));
 
         return $form;
     }
