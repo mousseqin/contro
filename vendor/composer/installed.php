@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '8316c1188de2e371c4bf66e1c9789c434612e708',
+    'reference' => '3d02cccb6fb88677f1c8b053da355569af18ec98',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -490,7 +490,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '8316c1188de2e371c4bf66e1c9789c434612e708',
+      'reference' => '3d02cccb6fb88677f1c8b053da355569af18ec98',
     ),
     'laravel/sail' => 
     array (
@@ -667,12 +667,12 @@
     ),
     'phpspec/prophecy' => 
     array (
-      'pretty_version' => '1.12.2',
-      'version' => '1.12.2.0',
+      'pretty_version' => '1.13.0',
+      'version' => '1.13.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '245710e971a030f42e08f4912863805570f23d39',
+      'reference' => 'be1996ed8adc35c3fd795488a653f4b518be70ea',
     ),
     'phpunit/php-code-coverage' => 
     array (
