@@ -45,6 +45,20 @@ class UsersController extends AdminController
             return 'footer';
         });
         $grid->quickSearch('name');
+        $grid->selector(function (Grid\Tools\Selector $selector) {
+            $selector->select('brand', '品牌', [
+                1 => '华为',
+                2 => '小米',
+                3 => 'OPPO',
+                4 => 'vivo',
+            ]);
+        });
+        $grid->quickCreate(function (Grid\Tools\QuickCreate $create) {
+            $create->text('name', '名称');
+            $create->email('email', '邮箱');
+        });
+        $grid->enableHotKeys();
+
         return $grid;
     }
 
