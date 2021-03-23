@@ -26,13 +26,25 @@ class UsersController extends AdminController
     {
         $grid = new Grid(new User());
 
-        $grid->column('id', __('Id'))->sortable();
+        $grid->column('id', __('Id'))->sortable()->totalRow();
         $grid->column('name', __('姓名'))->limit(10)->editable();
         $grid->column('email', __('邮箱'))->editable();
 //        $grid->column('password', __('密码'));
         $grid->column('created_at', __('创建时间'))->editable('datetime');
         $grid->column('updated_at', __('更新时间'))->editable('datetime');
 
+        $grid->actions(function ($actions) {
+            // 去掉编辑
+            $actions->disableEdit();
+        });
+        $grid->header(function ($query) {
+            return 'header';
+        });
+
+        $grid->footer(function ($query) {
+            return 'footer';
+        });
+        $grid->quickSearch('name');
         return $grid;
     }
 
