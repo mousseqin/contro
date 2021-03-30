@@ -1934,6 +1934,62 @@
             "install-path": "../hamcrest/hamcrest-php"
         },
         {
+            "name": "hanson/rainbow",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Hanson/rainbow.git",
+                "reference": "83ff49841659534b6346d02bf521753b87b55c05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Hanson/rainbow/zipball/83ff49841659534b6346d02bf521753b87b55c05",
+                "reference": "83ff49841659534b6346d02bf521753b87b55c05",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require-dev": {
+                "encore/laravel-admin": "^1.7"
+            },
+            "time": "2020-02-06T14:15:25+00:00",
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hanson\\Rainbow\\RainbowServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Hanson\\Rainbow\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hanson",
+                    "email": "h@hanc.cc"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/Hanson/rainbow/issues",
+                "source": "https://github.com/Hanson/rainbow/tree/master"
+            },
+            "install-path": "../hanson/rainbow"
+        },
+        {
             "name": "intervention/image",
             "version": "2.5.1",
             "version_normalized": "2.5.1.0",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "98c09c903df1a7d0ee4d58cd8671a517",
+    "content-hash": "1887684cfdac2db7840beeaa2fadb7db",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1373,6 +1373,59 @@
                 "source": "https://github.com/guzzle/psr7/tree/1.8.1"
             },
             "time": "2021-03-21T16:25:00+00:00"
+        },
+        {
+            "name": "hanson/rainbow",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Hanson/rainbow.git",
+                "reference": "83ff49841659534b6346d02bf521753b87b55c05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Hanson/rainbow/zipball/83ff49841659534b6346d02bf521753b87b55c05",
+                "reference": "83ff49841659534b6346d02bf521753b87b55c05",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require-dev": {
+                "encore/laravel-admin": "^1.7"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hanson\\Rainbow\\RainbowServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hanson\\Rainbow\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hanson",
+                    "email": "h@hanc.cc"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/Hanson/rainbow/issues",
+                "source": "https://github.com/Hanson/rainbow/tree/master"
+            },
+            "time": "2020-02-06T14:15:25+00:00"
         },
         {
             "name": "intervention/image",
@@ -8882,7 +8935,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "hanson/rainbow": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

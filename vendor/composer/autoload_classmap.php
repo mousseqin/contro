@@ -1709,6 +1709,8 @@ return array(
     'Hamcrest\\Type\\IsString' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
     'Hamcrest\\Util' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
     'Hamcrest\\Xml\\HasXPath' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+    'Hanson\\Rainbow\\Rainbow' => $vendorDir . '/hanson/rainbow/src/Rainbow.php',
+    'Hanson\\Rainbow\\RainbowServiceProvider' => $vendorDir . '/hanson/rainbow/src/RainbowServiceProvider.php',
     'Illuminate\\Auth\\Access\\AuthorizationException' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Access/AuthorizationException.php',
     'Illuminate\\Auth\\Access\\Events\\GateEvaluated' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Access/Events/GateEvaluated.php',
     'Illuminate\\Auth\\Access\\Gate' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/Access/Gate.php',

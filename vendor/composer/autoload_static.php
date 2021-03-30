@@ -141,6 +141,10 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
             'Illuminate\\Support\\' => 19,
             'Illuminate\\' => 11,
         ),
+        'H' => 
+        array (
+            'Hanson\\Rainbow\\' => 15,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -436,6 +440,10 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
+        ),
+        'Hanson\\Rainbow\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hanson/rainbow/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -2269,6 +2277,8 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'Hanson\\Rainbow\\Rainbow' => __DIR__ . '/..' . '/hanson/rainbow/src/Rainbow.php',
+        'Hanson\\Rainbow\\RainbowServiceProvider' => __DIR__ . '/..' . '/hanson/rainbow/src/RainbowServiceProvider.php',
         'Illuminate\\Auth\\Access\\AuthorizationException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/AuthorizationException.php',
         'Illuminate\\Auth\\Access\\Events\\GateEvaluated' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/Events/GateEvaluated.php',
         'Illuminate\\Auth\\Access\\Gate' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/Gate.php',

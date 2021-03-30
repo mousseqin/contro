@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '55a25510673d1357bdc41845f84951989e14c04c',
+    'reference' => 'a989f45f18d0fcbcc01bc68cd33b0434006f92d5',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -240,6 +240,16 @@
       array (
       ),
       'reference' => '8c3d0a3f6af734494ad8f6fbbee0ba92422859f3',
+    ),
+    'hanson/rainbow' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+        0 => '9999999-dev',
+      ),
+      'reference' => '83ff49841659534b6346d02bf521753b87b55c05',
     ),
     'illuminate/auth' => 
     array (
@@ -508,7 +518,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '55a25510673d1357bdc41845f84951989e14c04c',
+      'reference' => 'a989f45f18d0fcbcc01bc68cd33b0434006f92d5',
     ),
     'laravel/sail' => 
     array (
