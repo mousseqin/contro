@@ -6,7 +6,7 @@ if (!function_exists('umi')) {
         if (env('UMI', false)) {
             return '//localhost:8009/' . $path;
         } else {
-            return str_finish(asset('vendor/store/'), '/') . $path;
+            return Str::finish(asset('vendor/store/'), '/') . $path;
         }
     }
 }

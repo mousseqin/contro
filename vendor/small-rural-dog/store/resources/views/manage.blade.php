@@ -16,7 +16,7 @@
         window.store = {
             title: "{{config('store.title')}}",
             token: "{{ csrf_token() }}",
-            api: "{{str_finish(route('store-api-v1'),'/')}}"
+            api: "{{Str::finish(route('store-api-v1'),'/')}}"
         }
     </script>
     <script async src="{{umi('pwacompat.min.js')}}"></script>
