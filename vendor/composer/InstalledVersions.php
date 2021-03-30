@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '316f2dbdeaa68ca364d1131c68b443cd20eec3d2',
+    'reference' => '55a25510673d1357bdc41845f84951989e14c04c',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -186,12 +186,12 @@ private static $installed = array (
     ),
     'fakerphp/faker' => 
     array (
-      'pretty_version' => 'v1.14.0',
-      'version' => '1.14.0.0',
+      'pretty_version' => 'v1.14.1',
+      'version' => '1.14.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'cd46398f42c2ab191ffb0b57c07e911c7c28eb25',
+      'reference' => 'ed22aee8d17c7b396f74a58b1e7fefa4f90d5ef1',
     ),
     'fideloper/proxy' => 
     array (
@@ -532,7 +532,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '316f2dbdeaa68ca364d1131c68b443cd20eec3d2',
+      'reference' => '55a25510673d1357bdc41845f84951989e14c04c',
     ),
     'laravel/sail' => 
     array (
@@ -1055,6 +1055,24 @@ private static $installed = array (
       array (
       ),
       'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
+    ),
+    'small-rural-dog/store' => 
+    array (
+      'pretty_version' => '1.0.4',
+      'version' => '1.0.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c4795710990ed7e972326358308d104e737087ed',
+    ),
+    'smallruraldog/laravel-custom' => 
+    array (
+      'pretty_version' => '2.0',
+      'version' => '2.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'fd51abbc2512ae28193061e39abe5af3ff7a6033',
     ),
     'swiftmailer/swiftmailer' => 
     array (

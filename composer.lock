@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e5d524c1a016d308dca84e5a033da1c",
+    "content-hash": "98c09c903df1a7d0ee4d58cd8671a517",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3241,6 +3241,119 @@
             "time": "2020-08-18T17:17:46+00:00"
         },
         {
+            "name": "small-rural-dog/store",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SmallRuralDog/laravel-b2c-store.git",
+                "reference": "c4795710990ed7e972326358308d104e737087ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SmallRuralDog/laravel-b2c-store/zipball/c4795710990ed7e972326358308d104e737087ed",
+                "reference": "c4795710990ed7e972326358308d104e737087ed",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "encore/laravel-admin": "~1.6",
+                "intervention/image": "^2.4",
+                "php": ">=7.0.0",
+                "smallruraldog/laravel-custom": "^2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SmallRuralDog\\Store\\StoreServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SmallRuralDog\\Store\\": "src/"
+                },
+                "files": [
+                    "helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "your name"
+                }
+            ],
+            "description": "description...",
+            "homepage": "https://github.com/small-rural-dog/store",
+            "keywords": [
+                "extension",
+                "laravel-admin"
+            ],
+            "support": {
+                "issues": "https://github.com/SmallRuralDog/laravel-b2c-store/issues",
+                "source": "https://github.com/SmallRuralDog/laravel-b2c-store/tree/master"
+            },
+            "time": "2019-03-01T09:45:56+00:00"
+        },
+        {
+            "name": "smallruraldog/laravel-custom",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SmallRuralDog/laravel-custom.git",
+                "reference": "fd51abbc2512ae28193061e39abe5af3ff7a6033"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SmallRuralDog/laravel-custom/zipball/fd51abbc2512ae28193061e39abe5af3ff7a6033",
+                "reference": "fd51abbc2512ae28193061e39abe5af3ff7a6033",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SmallRuralDog\\LaravelCustom\\LaravelCustomServiceProvider"
+                    ],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SmallRuralDog\\LaravelCustom\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "SmallRuralDog",
+                    "email": "296404875@qq.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/SmallRuralDog/laravel-custom/issues",
+                "source": "https://github.com/SmallRuralDog/laravel-custom/tree/master"
+            },
+            "time": "2019-01-24T08:39:52+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.2.7",
             "source": {
@@ -6316,16 +6429,16 @@
         },
         {
             "name": "fakerphp/faker",
-            "version": "v1.14.0",
+            "version": "v1.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FakerPHP/Faker.git",
-                "reference": "cd46398f42c2ab191ffb0b57c07e911c7c28eb25"
+                "reference": "ed22aee8d17c7b396f74a58b1e7fefa4f90d5ef1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/cd46398f42c2ab191ffb0b57c07e911c7c28eb25",
-                "reference": "cd46398f42c2ab191ffb0b57c07e911c7c28eb25",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/ed22aee8d17c7b396f74a58b1e7fefa4f90d5ef1",
+                "reference": "ed22aee8d17c7b396f74a58b1e7fefa4f90d5ef1",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6354,6 +6467,11 @@
                 "ext-mbstring": "Required for multibyte Unicode string functionality."
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "v1.15-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Faker\\": "src/Faker/"
@@ -6376,9 +6494,9 @@
             ],
             "support": {
                 "issues": "https://github.com/FakerPHP/Faker/issues",
-                "source": "https://github.com/FakerPHP/Faker/tree/v1.14.0"
+                "source": "https://github.com/FakerPHP/Faker/tree/v.1.14.1"
             },
-            "time": "2021-03-29T08:56:34+00:00"
+            "time": "2021-03-30T06:27:33+00:00"
         },
         {
             "name": "filp/whoops",
