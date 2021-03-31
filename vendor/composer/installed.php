@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '7f0ca4d1255bc5d38a9eef6ea31342866055fc33',
+    'reference' => 'db2cbc710c029f4f5a56b8ef50b514495ed8d076',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -547,6 +547,15 @@
       ),
       'reference' => '4212753c00e800c2d74f2cae79bf79cb1fd626b2',
     ),
+    'laravel-admin-ext/redis-manager' => 
+    array (
+      'pretty_version' => 'v1.3',
+      'version' => '1.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd3ce8862df03e601387394a0bc1ee53822a39941',
+    ),
     'laravel/framework' => 
     array (
       'pretty_version' => 'v8.35.1',
@@ -563,7 +572,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '7f0ca4d1255bc5d38a9eef6ea31342866055fc33',
+      'reference' => 'db2cbc710c029f4f5a56b8ef50b514495ed8d076',
     ),
     'laravel/sail' => 
     array (
@@ -809,6 +818,15 @@
       array (
       ),
       'reference' => 'c73c6737305e779771147af66c96ca6a7ed8a741',
+    ),
+    'predis/predis' => 
+    array (
+      'pretty_version' => 'v1.1.6',
+      'version' => '1.1.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9930e933c67446962997b05201c69c2319bf26de',
     ),
     'psr/container' => 
     array (
