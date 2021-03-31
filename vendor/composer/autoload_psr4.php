@@ -80,6 +80,7 @@ return array(
     'Facade\\FlareClient\\' => array($vendorDir . '/facade/flare-client-php/src'),
     'Encore\\PHPInfo\\' => array($vendorDir . '/laravel-admin-ext/phpinfo/src'),
     'Encore\\James\\' => array($vendorDir . '/james.xue/login-captcha/src'),
+    'Encore\\Chartjs\\' => array($vendorDir . '/laravel-admin-ext/chartjs/src'),
     'Encore\\Admin\\Helpers\\' => array($vendorDir . '/laravel-admin-ext/helpers/src'),
     'Encore\\Admin\\ApiTester\\' => array($vendorDir . '/laravel-admin-ext/api-tester/src'),
     'Encore\\Admin\\' => array($vendorDir . '/encore/laravel-admin/src'),

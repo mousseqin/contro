@@ -967,6 +967,8 @@ return array(
     'Encore\\Admin\\Widgets\\Tab' => $vendorDir . '/encore/laravel-admin/src/Widgets/Tab.php',
     'Encore\\Admin\\Widgets\\Table' => $vendorDir . '/encore/laravel-admin/src/Widgets/Table.php',
     'Encore\\Admin\\Widgets\\Widget' => $vendorDir . '/encore/laravel-admin/src/Widgets/Widget.php',
+    'Encore\\Chartjs\\Chartjs' => $vendorDir . '/laravel-admin-ext/chartjs/src/Chartjs.php',
+    'Encore\\Chartjs\\ChartjsServiceProvider' => $vendorDir . '/laravel-admin-ext/chartjs/src/ChartjsServiceProvider.php',
     'Encore\\James\\James' => $vendorDir . '/james.xue/login-captcha/src/James.php',
     'Encore\\James\\JamesController' => $vendorDir . '/james.xue/login-captcha/src/JamesController.php',
     'Encore\\James\\JamesServiceProvider' => $vendorDir . '/james.xue/login-captcha/src/JamesServiceProvider.php',

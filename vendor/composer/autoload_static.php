@@ -169,6 +169,7 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         array (
             'Encore\\PHPInfo\\' => 15,
             'Encore\\James\\' => 13,
+            'Encore\\Chartjs\\' => 15,
             'Encore\\Admin\\Helpers\\' => 21,
             'Encore\\Admin\\ApiTester\\' => 23,
             'Encore\\Admin\\' => 13,
@@ -503,6 +504,10 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Encore\\James\\' => 
         array (
             0 => __DIR__ . '/..' . '/james.xue/login-captcha/src',
+        ),
+        'Encore\\Chartjs\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel-admin-ext/chartjs/src',
         ),
         'Encore\\Admin\\Helpers\\' => 
         array (
@@ -1558,6 +1563,8 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Encore\\Admin\\Widgets\\Tab' => __DIR__ . '/..' . '/encore/laravel-admin/src/Widgets/Tab.php',
         'Encore\\Admin\\Widgets\\Table' => __DIR__ . '/..' . '/encore/laravel-admin/src/Widgets/Table.php',
         'Encore\\Admin\\Widgets\\Widget' => __DIR__ . '/..' . '/encore/laravel-admin/src/Widgets/Widget.php',
+        'Encore\\Chartjs\\Chartjs' => __DIR__ . '/..' . '/laravel-admin-ext/chartjs/src/Chartjs.php',
+        'Encore\\Chartjs\\ChartjsServiceProvider' => __DIR__ . '/..' . '/laravel-admin-ext/chartjs/src/ChartjsServiceProvider.php',
         'Encore\\James\\James' => __DIR__ . '/..' . '/james.xue/login-captcha/src/James.php',
         'Encore\\James\\JamesController' => __DIR__ . '/..' . '/james.xue/login-captcha/src/JamesController.php',
         'Encore\\James\\JamesServiceProvider' => __DIR__ . '/..' . '/james.xue/login-captcha/src/JamesServiceProvider.php',
