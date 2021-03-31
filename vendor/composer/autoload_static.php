@@ -135,6 +135,10 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
             'Laravel\\Tinker\\' => 15,
             'Laravel\\Sail\\' => 13,
         ),
+        'J' => 
+        array (
+            'Jxlwqq\\EnvManager\\' => 18,
+        ),
         'I' => 
         array (
             'Intervention\\Image\\' => 19,
@@ -429,6 +433,10 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Laravel\\Sail\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/sail/src',
+        ),
+        'Jxlwqq\\EnvManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jxlwqq/env-manager/src',
         ),
         'Intervention\\Image\\' => 
         array (
@@ -3410,6 +3418,10 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Intervention\\Image\\Response' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/Response.php',
         'Intervention\\Image\\Size' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/Size.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
+        'Jxlwqq\\EnvManager\\Env' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/Env.php',
+        'Jxlwqq\\EnvManager\\EnvManager' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/EnvManager.php',
+        'Jxlwqq\\EnvManager\\EnvManagerServiceProvider' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/EnvManagerServiceProvider.php',
+        'Jxlwqq\\EnvManager\\Http\\Controllers\\EnvManagerController' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/Http/Controllers/EnvManagerController.php',
         'Laravel\\Sail\\Console\\InstallCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/InstallCommand.php',
         'Laravel\\Sail\\Console\\PublishCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/PublishCommand.php',
         'Laravel\\Sail\\SailServiceProvider' => __DIR__ . '/..' . '/laravel/sail/src/SailServiceProvider.php',

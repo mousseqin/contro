@@ -397,9 +397,15 @@ return [
     |
     */
     'extensions' => [
+        // 登陆验证码扩展
         'login-captcha' => [
             // set to false if you want to disable this extension
             'enable' => true,
+        ],
+        // ENV扩展
+        'env-manager' => [
+            // If the value is set to false, this extension will be disabled
+            'enable' => true
         ]
     ],
 ];
