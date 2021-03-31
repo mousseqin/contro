@@ -37,8 +37,8 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         '5e8fe2a5ffaded85af682684fe3bbf5a' => __DIR__ . '/..' . '/mews/captcha/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
-        'a936bed591e56a4296a1e3b8d25dda35' => __DIR__ . '/..' . '/small-rural-dog/store/helpers.php',
         'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
+        'a936bed591e56a4296a1e3b8d25dda35' => __DIR__ . '/..' . '/small-rural-dog/store/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -165,6 +165,7 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         array (
             'Encore\\PHPInfo\\' => 15,
             'Encore\\James\\' => 13,
+            'Encore\\Admin\\Helpers\\' => 21,
             'Encore\\Admin\\' => 13,
             'Egulias\\EmailValidator\\' => 23,
         ),
@@ -493,6 +494,10 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Encore\\James\\' => 
         array (
             0 => __DIR__ . '/..' . '/james.xue/login-captcha/src',
+        ),
+        'Encore\\Admin\\Helpers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel-admin-ext/helpers/src',
         ),
         'Encore\\Admin\\' => 
         array (
@@ -1486,6 +1491,14 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Encore\\Admin\\Grid\\Tools\\QuickSearch' => __DIR__ . '/..' . '/encore/laravel-admin/src/Grid/Tools/QuickSearch.php',
         'Encore\\Admin\\Grid\\Tools\\Selector' => __DIR__ . '/..' . '/encore/laravel-admin/src/Grid/Tools/Selector.php',
         'Encore\\Admin\\Grid\\Tools\\TotalRow' => __DIR__ . '/..' . '/encore/laravel-admin/src/Grid/Tools/TotalRow.php',
+        'Encore\\Admin\\Helpers\\Controllers\\RouteController' => __DIR__ . '/..' . '/laravel-admin-ext/helpers/src/Controllers/RouteController.php',
+        'Encore\\Admin\\Helpers\\Controllers\\ScaffoldController' => __DIR__ . '/..' . '/laravel-admin-ext/helpers/src/Controllers/ScaffoldController.php',
+        'Encore\\Admin\\Helpers\\Controllers\\TerminalController' => __DIR__ . '/..' . '/laravel-admin-ext/helpers/src/Controllers/TerminalController.php',
+        'Encore\\Admin\\Helpers\\Helpers' => __DIR__ . '/..' . '/laravel-admin-ext/helpers/src/Helpers.php',
+        'Encore\\Admin\\Helpers\\HelpersServiceProvider' => __DIR__ . '/..' . '/laravel-admin-ext/helpers/src/HelpersServiceProvider.php',
+        'Encore\\Admin\\Helpers\\Scaffold\\ControllerCreator' => __DIR__ . '/..' . '/laravel-admin-ext/helpers/src/Scaffold/ControllerCreator.php',
+        'Encore\\Admin\\Helpers\\Scaffold\\MigrationCreator' => __DIR__ . '/..' . '/laravel-admin-ext/helpers/src/Scaffold/MigrationCreator.php',
+        'Encore\\Admin\\Helpers\\Scaffold\\ModelCreator' => __DIR__ . '/..' . '/laravel-admin-ext/helpers/src/Scaffold/ModelCreator.php',
         'Encore\\Admin\\Layout\\Buildable' => __DIR__ . '/..' . '/encore/laravel-admin/src/Layout/Buildable.php',
         'Encore\\Admin\\Layout\\Column' => __DIR__ . '/..' . '/encore/laravel-admin/src/Layout/Column.php',
         'Encore\\Admin\\Layout\\Content' => __DIR__ . '/..' . '/encore/laravel-admin/src/Layout/Content.php',

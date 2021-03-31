@@ -79,6 +79,7 @@ return array(
     'Facade\\FlareClient\\' => array($vendorDir . '/facade/flare-client-php/src'),
     'Encore\\PHPInfo\\' => array($vendorDir . '/laravel-admin-ext/phpinfo/src'),
     'Encore\\James\\' => array($vendorDir . '/james.xue/login-captcha/src'),
+    'Encore\\Admin\\Helpers\\' => array($vendorDir . '/laravel-admin-ext/helpers/src'),
     'Encore\\Admin\\' => array($vendorDir . '/encore/laravel-admin/src'),
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/src'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
