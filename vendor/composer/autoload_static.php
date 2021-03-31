@@ -170,6 +170,7 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
             'Encore\\PHPInfo\\' => 15,
             'Encore\\James\\' => 13,
             'Encore\\Admin\\Helpers\\' => 21,
+            'Encore\\Admin\\ApiTester\\' => 23,
             'Encore\\Admin\\' => 13,
             'Egulias\\EmailValidator\\' => 23,
         ),
@@ -506,6 +507,10 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Encore\\Admin\\Helpers\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel-admin-ext/helpers/src',
+        ),
+        'Encore\\Admin\\ApiTester\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel-admin-ext/api-tester/src',
         ),
         'Encore\\Admin\\' => 
         array (
@@ -1253,6 +1258,11 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Encore\\Admin\\Actions\\Toastr' => __DIR__ . '/..' . '/encore/laravel-admin/src/Actions/Toastr.php',
         'Encore\\Admin\\Admin' => __DIR__ . '/..' . '/encore/laravel-admin/src/Admin.php',
         'Encore\\Admin\\AdminServiceProvider' => __DIR__ . '/..' . '/encore/laravel-admin/src/AdminServiceProvider.php',
+        'Encore\\Admin\\ApiTester\\ApiLogger' => __DIR__ . '/..' . '/laravel-admin-ext/api-tester/src/ApiLogger.php',
+        'Encore\\Admin\\ApiTester\\ApiTester' => __DIR__ . '/..' . '/laravel-admin-ext/api-tester/src/ApiTester.php',
+        'Encore\\Admin\\ApiTester\\ApiTesterController' => __DIR__ . '/..' . '/laravel-admin-ext/api-tester/src/ApiTesterController.php',
+        'Encore\\Admin\\ApiTester\\ApiTesterServiceProvider' => __DIR__ . '/..' . '/laravel-admin-ext/api-tester/src/ApiTesterServiceProvider.php',
+        'Encore\\Admin\\ApiTester\\BootExtension' => __DIR__ . '/..' . '/laravel-admin-ext/api-tester/src/BootExtension.php',
         'Encore\\Admin\\Auth\\Database\\AdminTablesSeeder' => __DIR__ . '/..' . '/encore/laravel-admin/src/Auth/Database/AdminTablesSeeder.php',
         'Encore\\Admin\\Auth\\Database\\Administrator' => __DIR__ . '/..' . '/encore/laravel-admin/src/Auth/Database/Administrator.php',
         'Encore\\Admin\\Auth\\Database\\HasPermissions' => __DIR__ . '/..' . '/encore/laravel-admin/src/Auth/Database/HasPermissions.php',

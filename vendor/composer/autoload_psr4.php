@@ -81,6 +81,7 @@ return array(
     'Encore\\PHPInfo\\' => array($vendorDir . '/laravel-admin-ext/phpinfo/src'),
     'Encore\\James\\' => array($vendorDir . '/james.xue/login-captcha/src'),
     'Encore\\Admin\\Helpers\\' => array($vendorDir . '/laravel-admin-ext/helpers/src'),
+    'Encore\\Admin\\ApiTester\\' => array($vendorDir . '/laravel-admin-ext/api-tester/src'),
     'Encore\\Admin\\' => array($vendorDir . '/encore/laravel-admin/src'),
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/src'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
