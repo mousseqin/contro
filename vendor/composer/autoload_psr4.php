@@ -65,6 +65,7 @@ return array(
     'Laravel\\Tinker\\' => array($vendorDir . '/laravel/tinker/src'),
     'Laravel\\Sail\\' => array($vendorDir . '/laravel/sail/src'),
     'Jxlwqq\\EnvManager\\' => array($vendorDir . '/jxlwqq/env-manager/src'),
+    'Jxlwqq\\ComposerViewer\\' => array($vendorDir . '/jxlwqq/composer-viewer/src'),
     'Intervention\\Image\\' => array($vendorDir . '/intervention/image/src/Intervention/Image'),
     'Illuminate\\Support\\' => array($vendorDir . '/laravel/framework/src/Illuminate/Macroable', $vendorDir . '/laravel/framework/src/Illuminate/Collections'),
     'Illuminate\\' => array($vendorDir . '/laravel/framework/src/Illuminate'),

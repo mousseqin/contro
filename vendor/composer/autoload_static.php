@@ -139,6 +139,7 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'J' => 
         array (
             'Jxlwqq\\EnvManager\\' => 18,
+            'Jxlwqq\\ComposerViewer\\' => 22,
         ),
         'I' => 
         array (
@@ -446,6 +447,10 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Jxlwqq\\EnvManager\\' => 
         array (
             0 => __DIR__ . '/..' . '/jxlwqq/env-manager/src',
+        ),
+        'Jxlwqq\\ComposerViewer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jxlwqq/composer-viewer/src',
         ),
         'Intervention\\Image\\' => 
         array (
@@ -3465,6 +3470,9 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Intervention\\Image\\Response' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/Response.php',
         'Intervention\\Image\\Size' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/Size.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
+        'Jxlwqq\\ComposerViewer\\ComposerViewer' => __DIR__ . '/..' . '/jxlwqq/composer-viewer/src/ComposerViewer.php',
+        'Jxlwqq\\ComposerViewer\\ComposerViewerServiceProvider' => __DIR__ . '/..' . '/jxlwqq/composer-viewer/src/ComposerViewerServiceProvider.php',
+        'Jxlwqq\\ComposerViewer\\Http\\Controllers\\ComposerViewerController' => __DIR__ . '/..' . '/jxlwqq/composer-viewer/src/Http/Controllers/ComposerViewerController.php',
         'Jxlwqq\\EnvManager\\Env' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/Env.php',
         'Jxlwqq\\EnvManager\\EnvManager' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/EnvManager.php',
         'Jxlwqq\\EnvManager\\EnvManagerServiceProvider' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/EnvManagerServiceProvider.php',
