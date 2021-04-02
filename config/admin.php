@@ -10,7 +10,7 @@ return [
     | 登录页面的大标题，显示在登录页面
     |
     */
-    'name' => 'Laravel-admin',
+    'name' => 'admin',
 
     /*
     |--------------------------------------------------------------------------
@@ -21,7 +21,7 @@ return [
     | <img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<b>Laravel管理后台</b> ',
+    'logo' => '<b>管理后台</b> ',
 
     /*
     |--------------------------------------------------------------------------
@@ -267,7 +267,7 @@ return [
     |        rainbow-origin to revert the origin skin.(This is not a skin.) 用于回滚样式（不是皮肤）
     |
     */
-    'skin' => 'skin-green-light',
+    'skin' => 'skin-black-light',
 
     /*
     |--------------------------------------------------------------------------
@@ -432,6 +432,10 @@ return [
             'enable' => true,
             // Set the location of composer command
             'which-composer' => '/usr/local/bin/composer', // !! it's important !!
+        ],
+        'material-ui' => [
+            // If the value is set to false, this extension will be disabled
+            'enable' => true
         ]
     ],
 ];

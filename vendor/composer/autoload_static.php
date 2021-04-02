@@ -138,6 +138,7 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         ),
         'J' => 
         array (
+            'Jxlwqq\\MaterialUI\\' => 18,
             'Jxlwqq\\EnvManager\\' => 18,
             'Jxlwqq\\ComposerViewer\\' => 22,
         ),
@@ -443,6 +444,10 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Laravel\\Sail\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/sail/src',
+        ),
+        'Jxlwqq\\MaterialUI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jxlwqq/material-ui/src',
         ),
         'Jxlwqq\\EnvManager\\' => 
         array (
@@ -3477,6 +3482,8 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Jxlwqq\\EnvManager\\EnvManager' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/EnvManager.php',
         'Jxlwqq\\EnvManager\\EnvManagerServiceProvider' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/EnvManagerServiceProvider.php',
         'Jxlwqq\\EnvManager\\Http\\Controllers\\EnvManagerController' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/Http/Controllers/EnvManagerController.php',
+        'Jxlwqq\\MaterialUI\\MaterialUI' => __DIR__ . '/..' . '/jxlwqq/material-ui/src/MaterialUI.php',
+        'Jxlwqq\\MaterialUI\\MaterialUIServiceProvider' => __DIR__ . '/..' . '/jxlwqq/material-ui/src/MaterialUIServiceProvider.php',
         'Laravel\\Sail\\Console\\InstallCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/InstallCommand.php',
         'Laravel\\Sail\\Console\\PublishCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/PublishCommand.php',
         'Laravel\\Sail\\SailServiceProvider' => __DIR__ . '/..' . '/laravel/sail/src/SailServiceProvider.php',

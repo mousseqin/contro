@@ -64,6 +64,7 @@ return array(
     'League\\CommonMark\\' => array($vendorDir . '/league/commonmark/src'),
     'Laravel\\Tinker\\' => array($vendorDir . '/laravel/tinker/src'),
     'Laravel\\Sail\\' => array($vendorDir . '/laravel/sail/src'),
+    'Jxlwqq\\MaterialUI\\' => array($vendorDir . '/jxlwqq/material-ui/src'),
     'Jxlwqq\\EnvManager\\' => array($vendorDir . '/jxlwqq/env-manager/src'),
     'Jxlwqq\\ComposerViewer\\' => array($vendorDir . '/jxlwqq/composer-viewer/src'),
     'Intervention\\Image\\' => array($vendorDir . '/intervention/image/src/Intervention/Image'),

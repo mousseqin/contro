@@ -2861,6 +2861,8 @@ return array(
     'Jxlwqq\\EnvManager\\EnvManager' => $vendorDir . '/jxlwqq/env-manager/src/EnvManager.php',
     'Jxlwqq\\EnvManager\\EnvManagerServiceProvider' => $vendorDir . '/jxlwqq/env-manager/src/EnvManagerServiceProvider.php',
     'Jxlwqq\\EnvManager\\Http\\Controllers\\EnvManagerController' => $vendorDir . '/jxlwqq/env-manager/src/Http/Controllers/EnvManagerController.php',
+    'Jxlwqq\\MaterialUI\\MaterialUI' => $vendorDir . '/jxlwqq/material-ui/src/MaterialUI.php',
+    'Jxlwqq\\MaterialUI\\MaterialUIServiceProvider' => $vendorDir . '/jxlwqq/material-ui/src/MaterialUIServiceProvider.php',
     'Laravel\\Sail\\Console\\InstallCommand' => $vendorDir . '/laravel/sail/src/Console/InstallCommand.php',
     'Laravel\\Sail\\Console\\PublishCommand' => $vendorDir . '/laravel/sail/src/Console/PublishCommand.php',
     'Laravel\\Sail\\SailServiceProvider' => $vendorDir . '/laravel/sail/src/SailServiceProvider.php',
