@@ -83,6 +83,7 @@ return array(
     'Encore\\James\\' => array($vendorDir . '/james.xue/login-captcha/src'),
     'Encore\\Chartjs\\' => array($vendorDir . '/laravel-admin-ext/chartjs/src'),
     'Encore\\Admin\\RedisManager\\' => array($vendorDir . '/laravel-admin-ext/redis-manager/src'),
+    'Encore\\Admin\\LogViewer\\' => array($vendorDir . '/laravel-admin-ext/log-viewer/src'),
     'Encore\\Admin\\Helpers\\' => array($vendorDir . '/laravel-admin-ext/helpers/src'),
     'Encore\\Admin\\ApiTester\\' => array($vendorDir . '/laravel-admin-ext/api-tester/src'),
     'Encore\\Admin\\' => array($vendorDir . '/encore/laravel-admin/src'),

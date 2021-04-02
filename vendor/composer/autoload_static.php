@@ -172,6 +172,7 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
             'Encore\\James\\' => 13,
             'Encore\\Chartjs\\' => 15,
             'Encore\\Admin\\RedisManager\\' => 26,
+            'Encore\\Admin\\LogViewer\\' => 23,
             'Encore\\Admin\\Helpers\\' => 21,
             'Encore\\Admin\\ApiTester\\' => 23,
             'Encore\\Admin\\' => 13,
@@ -518,6 +519,10 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Encore\\Admin\\RedisManager\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel-admin-ext/redis-manager/src',
+        ),
+        'Encore\\Admin\\LogViewer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel-admin-ext/log-viewer/src',
         ),
         'Encore\\Admin\\Helpers\\' => 
         array (
@@ -1537,6 +1542,10 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Encore\\Admin\\Layout\\Column' => __DIR__ . '/..' . '/encore/laravel-admin/src/Layout/Column.php',
         'Encore\\Admin\\Layout\\Content' => __DIR__ . '/..' . '/encore/laravel-admin/src/Layout/Content.php',
         'Encore\\Admin\\Layout\\Row' => __DIR__ . '/..' . '/encore/laravel-admin/src/Layout/Row.php',
+        'Encore\\Admin\\LogViewer\\BootExtension' => __DIR__ . '/..' . '/laravel-admin-ext/log-viewer/src/BootExtension.php',
+        'Encore\\Admin\\LogViewer\\LogController' => __DIR__ . '/..' . '/laravel-admin-ext/log-viewer/src/LogController.php',
+        'Encore\\Admin\\LogViewer\\LogViewer' => __DIR__ . '/..' . '/laravel-admin-ext/log-viewer/src/LogViewer.php',
+        'Encore\\Admin\\LogViewer\\LogViewerServiceProvider' => __DIR__ . '/..' . '/laravel-admin-ext/log-viewer/src/LogViewerServiceProvider.php',
         'Encore\\Admin\\Middleware\\Authenticate' => __DIR__ . '/..' . '/encore/laravel-admin/src/Middleware/Authenticate.php',
         'Encore\\Admin\\Middleware\\Bootstrap' => __DIR__ . '/..' . '/encore/laravel-admin/src/Middleware/Bootstrap.php',
         'Encore\\Admin\\Middleware\\LogOperation' => __DIR__ . '/..' . '/encore/laravel-admin/src/Middleware/LogOperation.php',
