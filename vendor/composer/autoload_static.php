@@ -138,7 +138,6 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         ),
         'J' => 
         array (
-            'Jxlwqq\\MaterialUI\\' => 18,
             'Jxlwqq\\EnvManager\\' => 18,
             'Jxlwqq\\ComposerViewer\\' => 22,
         ),
@@ -147,10 +146,6 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
             'Intervention\\Image\\' => 19,
             'Illuminate\\Support\\' => 19,
             'Illuminate\\' => 11,
-        ),
-        'H' => 
-        array (
-            'Hanson\\Rainbow\\' => 15,
         ),
         'G' => 
         array (
@@ -445,10 +440,6 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         array (
             0 => __DIR__ . '/..' . '/laravel/sail/src',
         ),
-        'Jxlwqq\\MaterialUI\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/jxlwqq/material-ui/src',
-        ),
         'Jxlwqq\\EnvManager\\' => 
         array (
             0 => __DIR__ . '/..' . '/jxlwqq/env-manager/src',
@@ -469,10 +460,6 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
-        ),
-        'Hanson\\Rainbow\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hanson/rainbow/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -2364,8 +2351,6 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
-        'Hanson\\Rainbow\\Rainbow' => __DIR__ . '/..' . '/hanson/rainbow/src/Rainbow.php',
-        'Hanson\\Rainbow\\RainbowServiceProvider' => __DIR__ . '/..' . '/hanson/rainbow/src/RainbowServiceProvider.php',
         'Illuminate\\Auth\\Access\\AuthorizationException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/AuthorizationException.php',
         'Illuminate\\Auth\\Access\\Events\\GateEvaluated' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/Events/GateEvaluated.php',
         'Illuminate\\Auth\\Access\\Gate' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Auth/Access/Gate.php',
@@ -3482,8 +3467,6 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Jxlwqq\\EnvManager\\EnvManager' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/EnvManager.php',
         'Jxlwqq\\EnvManager\\EnvManagerServiceProvider' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/EnvManagerServiceProvider.php',
         'Jxlwqq\\EnvManager\\Http\\Controllers\\EnvManagerController' => __DIR__ . '/..' . '/jxlwqq/env-manager/src/Http/Controllers/EnvManagerController.php',
-        'Jxlwqq\\MaterialUI\\MaterialUI' => __DIR__ . '/..' . '/jxlwqq/material-ui/src/MaterialUI.php',
-        'Jxlwqq\\MaterialUI\\MaterialUIServiceProvider' => __DIR__ . '/..' . '/jxlwqq/material-ui/src/MaterialUIServiceProvider.php',
         'Laravel\\Sail\\Console\\InstallCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/InstallCommand.php',
         'Laravel\\Sail\\Console\\PublishCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/PublishCommand.php',
         'Laravel\\Sail\\SailServiceProvider' => __DIR__ . '/..' . '/laravel/sail/src/SailServiceProvider.php',

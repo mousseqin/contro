@@ -256,18 +256,9 @@ return [
     |    "skin-blue", "skin-blue-light", "skin-yellow", "skin-yellow-light",
     |    "skin-green", "skin-green-light", "skin-purple", "skin-purple-light",
     |    "skin-red", "skin-red-light", "skin-black", "skin-black-light".
-    |        rainbow-blue 蓝色
-    |        rainbow-green 绿色
-    |        rainbow-red 红色
-    |        rainbow-orange 橙色
-    |        rainbow-yellow 黄色
-    |        rainbow-olive 橄榄
-    |        rainbow-cyan 天青
-    |        rainbow-white-blue 白蓝
-    |        rainbow-origin to revert the origin skin.(This is not a skin.) 用于回滚样式（不是皮肤）
     |
     */
-    'skin' => 'skin-black-light',
+    'skin' => 'skin-green-light',
 
     /*
     |--------------------------------------------------------------------------
@@ -433,9 +424,5 @@ return [
             // Set the location of composer command
             'which-composer' => '/usr/local/bin/composer', // !! it's important !!
         ],
-        'material-ui' => [
-            // If the value is set to false, this extension will be disabled
-            'enable' => true
-        ]
     ],
 ];

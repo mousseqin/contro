@@ -1981,62 +1981,6 @@
             "install-path": "../hamcrest/hamcrest-php"
         },
         {
-            "name": "hanson/rainbow",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Hanson/rainbow.git",
-                "reference": "83ff49841659534b6346d02bf521753b87b55c05"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Hanson/rainbow/zipball/83ff49841659534b6346d02bf521753b87b55c05",
-                "reference": "83ff49841659534b6346d02bf521753b87b55c05",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require-dev": {
-                "encore/laravel-admin": "^1.7"
-            },
-            "time": "2020-02-06T14:15:25+00:00",
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Hanson\\Rainbow\\RainbowServiceProvider"
-                    ]
-                }
-            },
-            "installation-source": "source",
-            "autoload": {
-                "psr-4": {
-                    "Hanson\\Rainbow\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hanson",
-                    "email": "h@hanc.cc"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/Hanson/rainbow/issues",
-                "source": "https://github.com/Hanson/rainbow/tree/master"
-            },
-            "install-path": "../hanson/rainbow"
-        },
-        {
             "name": "intervention/image",
             "version": "2.5.1",
             "version_normalized": "2.5.1.0",
@@ -2315,71 +2259,6 @@
                 "source": "https://github.com/jxlwqq/env-manager/tree/master"
             },
             "install-path": "../jxlwqq/env-manager"
-        },
-        {
-            "name": "jxlwqq/material-ui",
-            "version": "1.0.7",
-            "version_normalized": "1.0.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel-admin-extensions/material-ui.git",
-                "reference": "b14700437fe2a1aec0717ad51a1195d4cae227a6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel-admin-extensions/material-ui/zipball/b14700437fe2a1aec0717ad51a1195d4cae227a6",
-                "reference": "b14700437fe2a1aec0717ad51a1195d4cae227a6",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "encore/laravel-admin": ">=1.6.1",
-                "php": ">=7.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~6.0"
-            },
-            "time": "2019-04-28T10:50:40+00:00",
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Jxlwqq\\MaterialUI\\MaterialUIServiceProvider"
-                    ]
-                }
-            },
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Jxlwqq\\MaterialUI\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "jxlwqq",
-                    "email": "jxlwqq@gmail.com"
-                }
-            ],
-            "description": "material ui for laravel-admin",
-            "homepage": "https://github.com/jxlwqq/material-ui",
-            "keywords": [
-                "extension",
-                "laravel-admin"
-            ],
-            "support": {
-                "issues": "https://github.com/laravel-admin-extensions/material-ui/issues",
-                "source": "https://github.com/laravel-admin-extensions/material-ui/tree/master"
-            },
-            "install-path": "../jxlwqq/material-ui"
         },
         {
             "name": "laravel-admin-ext/api-tester",
