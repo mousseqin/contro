@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'f06c053d1ae6ff8b854f36a307687acabb128c60',
+    'reference' => '5ac41e333f265627c9b25cf30e87e3f66b7b4d40',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -580,7 +580,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'f06c053d1ae6ff8b854f36a307687acabb128c60',
+      'reference' => '5ac41e333f265627c9b25cf30e87e3f66b7b4d40',
     ),
     'laravel/sail' => 
     array (
@@ -829,12 +829,12 @@
     ),
     'predis/predis' => 
     array (
-      'pretty_version' => 'v1.1.6',
-      'version' => '1.1.6.0',
+      'pretty_version' => 'v1.1.7',
+      'version' => '1.1.7.0',
       'aliases' => 
       array (
       ),
-      'reference' => '9930e933c67446962997b05201c69c2319bf26de',
+      'reference' => 'b240daa106d4e02f0c5b7079b41e31ddf66fddf8',
     ),
     'psr/container' => 
     array (
