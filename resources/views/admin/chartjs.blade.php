@@ -275,6 +275,7 @@
 </div>
 <!-- /.modal -->
 
+<!--Bar chart-->
 <script>
     $(function () {
 
@@ -293,9 +294,9 @@
         };
 
         var barChartData = {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+            labels: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
             datasets: [{
-                label: 'Dataset 1',
+                label: '数据1',
                 borderColor: window.chartColors.red,
                 borderWidth: 1,
                 data: [
@@ -305,13 +306,23 @@
                     randomScalingFactor(),
                     randomScalingFactor(),
                     randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
                     randomScalingFactor()
                 ]
             }, {
-                label: 'Dataset 2',
+                label: '数据2',
                 borderColor: window.chartColors.blue,
                 borderWidth: 1,
                 data: [
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
                     randomScalingFactor(),
                     randomScalingFactor(),
                     randomScalingFactor(),
@@ -335,15 +346,13 @@
                 },
                 title: {
                     display: true,
-                    text: 'Chart.js Bar Chart'
+                    text: '这里写TITLE'
                 }
             }
         });
     });
 </script>
-<script>
-
-</script>
+<!--Scatter chart-->
 <script>
     $(function () {
         function randomScalingFactor() {
@@ -365,7 +374,7 @@
             type: 'scatter',
             data: {
                 datasets: [{
-                    label: 'My First dataset',
+                    label: '数据1',
                     borderColor: window.chartColors.red,
                     data: [{
                         x: randomScalingFactor(),
@@ -390,7 +399,7 @@
                         y: randomScalingFactor(),
                     }]
                 }, {
-                    label: 'My Second dataset',
+                    label: '数据2',
                     borderColor: window.chartColors.blue,
                     data: [{
                         x: randomScalingFactor(),
@@ -427,9 +436,7 @@
         });
     });
 </script>
-<script>
-
-</script>
+<!--Line chart-->
 <script>
     $(function () {
 
@@ -450,9 +457,9 @@
         var config = {
             type: 'line',
             data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                labels: ['1月', '2月', '3月', '4月', '5月', '6月', '7月'],
                 datasets: [{
-                    label: 'My First dataset',
+                    label: '数据1',
                     backgroundColor: window.chartColors.red,
                     borderColor: window.chartColors.red,
                     data: [
@@ -466,7 +473,7 @@
                     ],
                     fill: false,
                 }, {
-                    label: 'My Second dataset',
+                    label: '数据2',
                     fill: false,
                     backgroundColor: window.chartColors.blue,
                     borderColor: window.chartColors.blue,
@@ -485,7 +492,7 @@
                 responsive: true,
                 title: {
                     display: true,
-                    text: 'Chart.js Line Chart'
+                    text: '这里写title'
                 },
                 tooltips: {
                     mode: 'index',
@@ -500,14 +507,14 @@
                         display: true,
                         scaleLabel: {
                             display: true,
-                            labelString: 'Month'
+                            labelString: '横轴'
                         }
                     }],
                     yAxes: [{
                         display: true,
                         scaleLabel: {
                             display: true,
-                            labelString: 'Value'
+                            labelString: '纵轴'
                         }
                     }]
                 }
@@ -518,9 +525,7 @@
         new Chart(ctx, config);
     });
 </script>
-<script>
-
-</script>
+<!--Doughnut chart-->
 <script>
     $(function () {
 
@@ -586,9 +591,7 @@
         new Chart(ctx, config);
     });
 </script>
-<script>
-
-</script>
+<!--Chart.js Combo Bar Line Chart-->
 <script>
     $(function () {
 
@@ -673,9 +676,7 @@
         });
     });
 </script>
-<script>
-
-</script>
+<!--Chart.js Line Chart - Stacked Area-->
 <script>
     $(function () {
 
@@ -785,9 +786,7 @@
         new Chart(ctx, config);
     });
 </script>
-<script>
 
-</script>
 <script data-exec-on-popstate="">
 
     $(function () {
