@@ -1055,9 +1055,12 @@
     });
 </script>
 
-<canvas id="myChart" width="400" height="400"></canvas>
+<canvas id="myChart" width="100" height="100"></canvas>
 <script>
     $(function () {
+        function randomScalingFactor() {
+            return Math.floor(Math.random() * 10)
+        }
         var ctx = document.getElementById("myChart").getContext('2d');
         var myChart = new Chart(ctx, {
             type: 'bar',
@@ -1065,7 +1068,14 @@
                 labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
                 datasets: [{
                     label: '# of Votes',
-                    data: [12, 19, 3, 5, 2, 3],
+                    data: [
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor()
+                    ],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
