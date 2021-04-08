@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '4bb2f48fd2911533955f8844bdc637ec6f97bce7',
+    'reference' => 'f91ce2e073067762366aa4cdd802e5d0e14019e1',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -168,12 +168,12 @@ private static $installed = array (
     ),
     'facade/flare-client-php' => 
     array (
-      'pretty_version' => '1.5.0',
-      'version' => '1.5.0.0',
+      'pretty_version' => '1.6.0',
+      'version' => '1.6.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '9dd6f2b56486d939c4467b3f35475d44af57cf17',
+      'reference' => '16129c4f39eeae0a26c4ac7ad5292264bce6715c',
     ),
     'facade/ignition' => 
     array (
@@ -604,7 +604,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '4bb2f48fd2911533955f8844bdc637ec6f97bce7',
+      'reference' => 'f91ce2e073067762366aa4cdd802e5d0e14019e1',
     ),
     'laravel/sail' => 
     array (

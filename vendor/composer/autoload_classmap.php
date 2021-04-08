@@ -1013,6 +1013,7 @@ return array(
     'Facade\\FlareClient\\Http\\Response' => $vendorDir . '/facade/flare-client-php/src/Http/Response.php',
     'Facade\\FlareClient\\Middleware\\AddGlows' => $vendorDir . '/facade/flare-client-php/src/Middleware/AddGlows.php',
     'Facade\\FlareClient\\Middleware\\AnonymizeIp' => $vendorDir . '/facade/flare-client-php/src/Middleware/AnonymizeIp.php',
+    'Facade\\FlareClient\\Middleware\\CensorRequestBodyFields' => $vendorDir . '/facade/flare-client-php/src/Middleware/CensorRequestBodyFields.php',
     'Facade\\FlareClient\\Report' => $vendorDir . '/facade/flare-client-php/src/Report.php',
     'Facade\\FlareClient\\Solutions\\ReportSolution' => $vendorDir . '/facade/flare-client-php/src/Solutions/ReportSolution.php',
     'Facade\\FlareClient\\Stacktrace\\Codesnippet' => $vendorDir . '/facade/flare-client-php/src/Stacktrace/Codesnippet.php',
