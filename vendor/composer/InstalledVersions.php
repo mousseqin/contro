@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'f91ce2e073067762366aa4cdd802e5d0e14019e1',
+    'reference' => 'bb483dd5cdc877218fff9e56ec6484fc152bb57e',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -168,21 +168,21 @@ private static $installed = array (
     ),
     'facade/flare-client-php' => 
     array (
-      'pretty_version' => '1.6.0',
-      'version' => '1.6.0.0',
+      'pretty_version' => '1.6.1',
+      'version' => '1.6.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '16129c4f39eeae0a26c4ac7ad5292264bce6715c',
+      'reference' => 'f2b0969f2d9594704be74dbeb25b201570a98098',
     ),
     'facade/ignition' => 
     array (
-      'pretty_version' => '2.7.0',
-      'version' => '2.7.0.0',
+      'pretty_version' => '2.8.0',
+      'version' => '2.8.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'bdc8b0b32c888f6edc838ca641358322b3d9506d',
+      'reference' => 'ae602ea1c061bdc5b96b4d5af9ffca1fcb5fa80b',
     ),
     'facade/ignition-contracts' => 
     array (
@@ -604,7 +604,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'f91ce2e073067762366aa4cdd802e5d0e14019e1',
+      'reference' => 'bb483dd5cdc877218fff9e56ec6484fc152bb57e',
     ),
     'laravel/sail' => 
     array (
