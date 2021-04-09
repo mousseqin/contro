@@ -32,10 +32,10 @@ return array(
     '58571171fd5812e6e447dce228f52f4d' => $vendorDir . '/laravel/framework/src/Illuminate/Support/helpers.php',
     '4e8671d7be9056dcd04ddd9e8e15f9cc' => $vendorDir . '/encore/laravel-admin/src/helpers.php',
     '8825ede83f2f289127722d4e842cf7e8' => $vendorDir . '/symfony/polyfill-intl-grapheme/bootstrap.php',
+    '9cdd7b9056abc3081735233ba9dd9c7f' => $vendorDir . '/facade/flare-client-php/src/helpers.php',
     '5e8fe2a5ffaded85af682684fe3bbf5a' => $vendorDir . '/mews/captcha/src/helpers.php',
     '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     'b6b991a57620e2fb6b2f66f03fe9ddc2' => $vendorDir . '/symfony/string/Resources/functions.php',
-    '9cdd7b9056abc3081735233ba9dd9c7f' => $vendorDir . '/facade/flare-client-php/src/helpers.php',
     'a936bed591e56a4296a1e3b8d25dda35' => $vendorDir . '/small-rural-dog/store/helpers.php',
     'ed962a97bd972bc82007176b647d4e36' => $vendorDir . '/facade/ignition/src/helpers.php',
 );
