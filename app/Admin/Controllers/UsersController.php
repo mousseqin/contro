@@ -29,6 +29,7 @@ class UsersController extends AdminController
         $grid->column('id', __('Id'))->sortable()->totalRow();
         $grid->column('name', __('姓名'))->limit(10)->editable();
         $grid->column('email', __('邮箱'))->editable();
+        $grid->column('nationality', __('国籍'));
 //        $grid->column('password', __('密码'));
         $grid->column('created_at', __('创建时间'))->editable('datetime');
         $grid->column('updated_at', __('更新时间'))->editable('datetime');
@@ -46,11 +47,11 @@ class UsersController extends AdminController
         });
         $grid->quickSearch('name');
         $grid->selector(function (Grid\Tools\Selector $selector) {
-            $selector->select('brand', '品牌', [
-                1 => '华为',
-                2 => '小米',
-                3 => 'OPPO',
-                4 => 'vivo',
+            $selector->select('nationality', '国籍', [
+                '中国' => '中国',
+                '日本' => '日本',
+                '美国' => '美国',
+                '法国' => '法国'
             ]);
         });
         $grid->quickCreate(function (Grid\Tools\QuickCreate $create) {
