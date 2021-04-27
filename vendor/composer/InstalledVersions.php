@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '6b9c61677b49dac89e777af04e3d4d2fb39a6fdf',
+    'reference' => '14569ed212d2c57157fac4277e8878d51f1377c6',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -213,12 +213,12 @@ private static $installed = array (
     ),
     'fruitcake/laravel-cors' => 
     array (
-      'pretty_version' => 'v2.0.3',
-      'version' => '2.0.3.0',
+      'pretty_version' => 'v2.0.4',
+      'version' => '2.0.4.0',
       'aliases' => 
       array (
       ),
-      'reference' => '01de0fe5f71c70d1930ee9a80385f9cc28e0f63a',
+      'reference' => 'a8ccedc7ca95189ead0e407c43b530dc17791d6a',
     ),
     'graham-campbell/result-type' => 
     array (
@@ -249,12 +249,12 @@ private static $installed = array (
     ),
     'guzzlehttp/psr7' => 
     array (
-      'pretty_version' => '1.8.1',
-      'version' => '1.8.1.0',
+      'pretty_version' => '1.8.2',
+      'version' => '1.8.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '35ea11d335fd638b5882ff1725228b3d35496ab1',
+      'reference' => 'dc960a912984efb74d0a90222870c72c87f10c91',
     ),
     'hamcrest/hamcrest-php' => 
     array (
@@ -595,7 +595,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '6b9c61677b49dac89e777af04e3d4d2fb39a6fdf',
+      'reference' => '14569ed212d2c57157fac4277e8878d51f1377c6',
     ),
     'laravel/sail' => 
     array (
