@@ -2019,17 +2019,17 @@
         },
         {
             "name": "james.xue/login-captcha",
-            "version": "2.0.1",
-            "version_normalized": "2.0.1.0",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xiaoxuan6/login-captcha.git",
-                "reference": "84634686212cae7fa7dbf254b5ce6456063391db"
+                "reference": "4d20361356f05ac3d15e9338123d01ef0c1cbbc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xiaoxuan6/login-captcha/zipball/84634686212cae7fa7dbf254b5ce6456063391db",
-                "reference": "84634686212cae7fa7dbf254b5ce6456063391db",
+                "url": "https://api.github.com/repos/xiaoxuan6/login-captcha/zipball/4d20361356f05ac3d15e9338123d01ef0c1cbbc5",
+                "reference": "4d20361356f05ac3d15e9338123d01ef0c1cbbc5",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2040,13 +2040,13 @@
             },
             "require": {
                 "encore/laravel-admin": "~1.7",
-                "mews/captcha": "^3.0",
+                "mews/captcha": "^2.2||^3.0",
                 "php": ">=7.0.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~6.0"
             },
-            "time": "2020-02-10T14:27:49+00:00",
+            "time": "2021-05-10T06:45:43+00:00",
             "type": "library",
             "extra": {
                 "laravel": {
@@ -2080,8 +2080,14 @@
             ],
             "support": {
                 "issues": "https://github.com/xiaoxuan6/login-captcha/issues",
-                "source": "https://github.com/xiaoxuan6/login-captcha/tree/2.0.1"
+                "source": "https://github.com/xiaoxuan6/login-captcha/tree/2.0.2"
             },
+            "funding": [
+                {
+                    "url": "http://james.dmzfa.com/about#pay",
+                    "type": "custom"
+                }
+            ],
             "install-path": "../james.xue/login-captcha"
         },
         {

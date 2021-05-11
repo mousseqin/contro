@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'f18310f0d30aed1273b8658fe4c33d9065bb2c17',
+    'reference' => '40009e335296f36b887192d83cccb02f2694ed95',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -469,12 +469,12 @@
     ),
     'james.xue/login-captcha' => 
     array (
-      'pretty_version' => '2.0.1',
-      'version' => '2.0.1.0',
+      'pretty_version' => '2.0.2',
+      'version' => '2.0.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '84634686212cae7fa7dbf254b5ce6456063391db',
+      'reference' => '4d20361356f05ac3d15e9338123d01ef0c1cbbc5',
     ),
     'jxlwqq/composer-viewer' => 
     array (
@@ -571,7 +571,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'f18310f0d30aed1273b8658fe4c33d9065bb2c17',
+      'reference' => '40009e335296f36b887192d83cccb02f2694ed95',
     ),
     'laravel/sail' => 
     array (
