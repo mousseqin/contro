@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '5a3fdcd589f0e78a71d08d2aae879188cbc1837f',
+    'reference' => 'ba4c6dbd56a2584bbf1ea721dc99ab552867bc6a',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -45,12 +45,12 @@
     ),
     'doctrine/cache' => 
     array (
-      'pretty_version' => '1.11.0',
-      'version' => '1.11.0.0',
+      'pretty_version' => '1.11.1',
+      'version' => '1.11.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'a9c1b59eba5a08ca2770a76eddb88922f504e8e0',
+      'reference' => '163074496dc7c3c7b8ccbf3d4376c0187424ed81',
     ),
     'doctrine/dbal' => 
     array (
@@ -571,7 +571,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '5a3fdcd589f0e78a71d08d2aae879188cbc1837f',
+      'reference' => 'ba4c6dbd56a2584bbf1ea721dc99ab552867bc6a',
     ),
     'laravel/sail' => 
     array (
