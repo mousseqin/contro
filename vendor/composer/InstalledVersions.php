@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '4de930b2af78e673593873fda9d8fcd9e022124f',
+    'reference' => 'a3c036496f6c265698b8cc16f7f66877da9b368a',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -597,7 +597,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '4de930b2af78e673593873fda9d8fcd9e022124f',
+      'reference' => 'a3c036496f6c265698b8cc16f7f66877da9b368a',
     ),
     'laravel/sail' => 
     array (
@@ -1649,9 +1649,23 @@ return $installed[0]['root'];
 
 
 
+
 public static function getRawData()
 {
+@trigger_error('getRawData only returns the first dataset loaded, which may not be what you expect. Use getAllRawData() instead which returns all datasets for all autoloaders present in the process.', E_USER_DEPRECATED);
+
 return self::$installed;
+}
+
+
+
+
+
+
+
+public static function getAllRawData()
+{
+return self::getInstalled();
 }
 
 
