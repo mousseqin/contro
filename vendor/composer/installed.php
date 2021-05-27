@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '097113943913f6eb9d9f2b3058c3993bef9a75bb',
+    'reference' => '5cea92ac09fcbd2312ccca87743db3686df09370',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -571,7 +571,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '097113943913f6eb9d9f2b3058c3993bef9a75bb',
+      'reference' => '5cea92ac09fcbd2312ccca87743db3686df09370',
     ),
     'laravel/sail' => 
     array (
@@ -667,12 +667,12 @@
     ),
     'nesbot/carbon' => 
     array (
-      'pretty_version' => '2.48.0',
-      'version' => '2.48.0.0',
+      'pretty_version' => '2.48.1',
+      'version' => '2.48.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'd3c447f21072766cddec3522f9468a5849a76147',
+      'reference' => '8d1f50f1436fb4b05e7127360483dd9c6e73da16',
     ),
     'nikic/php-parser' => 
     array (
