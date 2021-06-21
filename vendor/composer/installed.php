@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'd600886e684895e445ffaf3ac5ddea197f49d8ce',
+        'reference' => '9a072c96350a3d1ffb3aa006cfdbf317670a8311',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -535,7 +535,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'd600886e684895e445ffaf3ac5ddea197f49d8ce',
+            'reference' => '9a072c96350a3d1ffb3aa006cfdbf317670a8311',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -557,12 +557,12 @@
             'dev_requirement' => false,
         ),
         'league/commonmark' => array(
-            'pretty_version' => '1.6.2',
-            'version' => '1.6.2.0',
+            'pretty_version' => '1.6.4',
+            'version' => '1.6.4.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/commonmark',
             'aliases' => array(),
-            'reference' => '7d70d2f19c84bcc16275ea47edabee24747352eb',
+            'reference' => 'c3c8b7217c52572fb42aaf84211abccf75a151b2',
             'dev_requirement' => false,
         ),
         'league/flysystem' => array(
