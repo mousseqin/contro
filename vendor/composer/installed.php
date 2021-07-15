@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '08387d8f5277f044ee3eee2abb38e64d7e1fc5ac',
+        'reference' => '5ebe50588d545ab874f18248448064a8e2f5d356',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -41,12 +41,12 @@
             ),
         ),
         'doctrine/cache' => array(
-            'pretty_version' => '2.0.3',
-            'version' => '2.0.3.0',
+            'pretty_version' => '2.1.0',
+            'version' => '2.1.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/cache',
             'aliases' => array(),
-            'reference' => 'c9622c6820d3ede1e2315a6a377ea1076e421d88',
+            'reference' => 'ac77408b22cc6c4d0b4947d20a3889be3043566e',
             'dev_requirement' => false,
         ),
         'doctrine/dbal' => array(
@@ -122,12 +122,12 @@
             'dev_requirement' => false,
         ),
         'encore/laravel-admin' => array(
-            'pretty_version' => 'v1.8.12',
-            'version' => '1.8.12.0',
+            'pretty_version' => 'v1.8.13',
+            'version' => '1.8.13.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../encore/laravel-admin',
             'aliases' => array(),
-            'reference' => '2c4834cf2d3160b31714292eece6df58e78c177f',
+            'reference' => '52c51ee3b7d7111e74a0f2f64a27539871126ac8',
             'dev_requirement' => false,
         ),
         'facade/flare-client-php' => array(
@@ -221,12 +221,12 @@
             'dev_requirement' => false,
         ),
         'guzzlehttp/psr7' => array(
-            'pretty_version' => '1.8.2',
-            'version' => '1.8.2.0',
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
-            'reference' => 'dc960a912984efb74d0a90222870c72c87f10c91',
+            'reference' => '1dc8d9cba3897165e16d12bb13d813afb1eb3fe7',
             'dev_requirement' => false,
         ),
         'hamcrest/hamcrest-php' => array(
@@ -425,12 +425,12 @@
             ),
         ),
         'intervention/image' => array(
-            'pretty_version' => '2.5.1',
-            'version' => '2.5.1.0',
+            'pretty_version' => '2.6.0',
+            'version' => '2.6.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../intervention/image',
             'aliases' => array(),
-            'reference' => 'abbf18d5ab8367f96b3205ca3c89fb2fa598c69e',
+            'reference' => 'a2d7238069bb01322f9c2a661449955434fec9c6',
             'dev_requirement' => false,
         ),
         'james.xue/login-captcha' => array(
@@ -535,16 +535,16 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '08387d8f5277f044ee3eee2abb38e64d7e1fc5ac',
+            'reference' => '5ebe50588d545ab874f18248448064a8e2f5d356',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
-            'pretty_version' => 'v1.8.5',
-            'version' => '1.8.5.0',
+            'pretty_version' => 'v1.8.6',
+            'version' => '1.8.6.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/sail',
             'aliases' => array(),
-            'reference' => 'cab38edc00804700518e110df2677ef34c3dbb2e',
+            'reference' => '51ecfe0f048f8f8e6c5617e02a1f67ca22817c98',
             'dev_requirement' => true,
         ),
         'laravel/tinker' => array(
@@ -602,12 +602,12 @@
             'dev_requirement' => true,
         ),
         'monolog/monolog' => array(
-            'pretty_version' => '2.3.0',
-            'version' => '2.3.0.0',
+            'pretty_version' => '2.3.1',
+            'version' => '2.3.1.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../monolog/monolog',
             'aliases' => array(),
-            'reference' => 'df991fd88693ab703aa403413d83e15f688dae33',
+            'reference' => '9738e495f288eec0b187e310b7cdbbb285777dbe',
             'dev_requirement' => false,
         ),
         'mtdowling/cron-expression' => array(
@@ -835,6 +835,21 @@
                 0 => '1.0',
             ),
         ),
+        'psr/http-factory' => array(
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/http-factory',
+            'aliases' => array(),
+            'reference' => '12ac7fcd07e5b077433f5f2bee95b3a771bf61be',
+            'dev_requirement' => false,
+        ),
+        'psr/http-factory-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0',
+            ),
+        ),
         'psr/http-message' => array(
             'pretty_version' => '1.0.1',
             'version' => '1.0.1.0',
@@ -862,8 +877,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0.0',
-                1 => '1.0',
+                0 => '1.0',
+                1 => '1.0.0',
             ),
         ),
         'psr/simple-cache' => array(
