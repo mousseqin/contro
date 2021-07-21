@@ -36,8 +36,8 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         '5e8fe2a5ffaded85af682684fe3bbf5a' => __DIR__ . '/..' . '/mews/captcha/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
-        'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
         'a936bed591e56a4296a1e3b8d25dda35' => __DIR__ . '/..' . '/small-rural-dog/store/helpers.php',
+        'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -3262,6 +3262,7 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Illuminate\\Testing\\Fluent\\Concerns\\Has' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Testing/Fluent/Concerns/Has.php',
         'Illuminate\\Testing\\Fluent\\Concerns\\Interaction' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Testing/Fluent/Concerns/Interaction.php',
         'Illuminate\\Testing\\Fluent\\Concerns\\Matching' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Testing/Fluent/Concerns/Matching.php',
+        'Illuminate\\Testing\\LoggedExceptionCollection' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Testing/LoggedExceptionCollection.php',
         'Illuminate\\Testing\\ParallelConsoleOutput' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Testing/ParallelConsoleOutput.php',
         'Illuminate\\Testing\\ParallelRunner' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Testing/ParallelRunner.php',
         'Illuminate\\Testing\\ParallelTesting' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Testing/ParallelTesting.php',
@@ -3307,6 +3308,7 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Illuminate\\View\\Compilers\\CompilerInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/CompilerInterface.php',
         'Illuminate\\View\\Compilers\\ComponentTagCompiler' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/ComponentTagCompiler.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesAuthorizations' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesAuthorizations.php',
+        'Illuminate\\View\\Compilers\\Concerns\\CompilesClasses' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesClasses.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesComments' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesComments.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesComponents' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesComponents.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesConditionals' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesConditionals.php',
