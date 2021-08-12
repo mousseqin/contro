@@ -2968,6 +2968,7 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'Illuminate\\Http\\Middleware\\FrameGuard' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Http/Middleware/FrameGuard.php',
         'Illuminate\\Http\\Middleware\\SetCacheHeaders' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Http/Middleware/SetCacheHeaders.php',
         'Illuminate\\Http\\Middleware\\TrustHosts' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Http/Middleware/TrustHosts.php',
+        'Illuminate\\Http\\Middleware\\TrustProxies' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php',
         'Illuminate\\Http\\RedirectResponse' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Http/RedirectResponse.php',
         'Illuminate\\Http\\Request' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Http/Request.php',
         'Illuminate\\Http\\Resources\\CollectsResources' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Http/Resources/CollectsResources.php',
