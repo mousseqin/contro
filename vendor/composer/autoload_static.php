@@ -3741,6 +3741,7 @@ class ComposerStaticInit9f59615eb4c401ff52176dcb010be955
         'League\\CommonMark\\Parser\\Block\\BlockStartParserInterface' => __DIR__ . '/..' . '/league/commonmark/src/Parser/Block/BlockStartParserInterface.php',
         'League\\CommonMark\\Parser\\Block\\DocumentBlockParser' => __DIR__ . '/..' . '/league/commonmark/src/Parser/Block/DocumentBlockParser.php',
         'League\\CommonMark\\Parser\\Block\\ParagraphParser' => __DIR__ . '/..' . '/league/commonmark/src/Parser/Block/ParagraphParser.php',
+        'League\\CommonMark\\Parser\\Block\\SkipLinesStartingWithLettersParser' => __DIR__ . '/..' . '/league/commonmark/src/Parser/Block/SkipLinesStartingWithLettersParser.php',
         'League\\CommonMark\\Parser\\Cursor' => __DIR__ . '/..' . '/league/commonmark/src/Parser/Cursor.php',
         'League\\CommonMark\\Parser\\CursorState' => __DIR__ . '/..' . '/league/commonmark/src/Parser/CursorState.php',
         'League\\CommonMark\\Parser\\InlineParserContext' => __DIR__ . '/..' . '/league/commonmark/src/Parser/InlineParserContext.php',
