@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '7899082244e3bd55562d31c047a2e0bcac87b73c',
+        'reference' => '1e16b18f94426fdb92a7286456679eb7bddf3ddb',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -149,12 +149,12 @@
             'dev_requirement' => true,
         ),
         'facade/ignition' => array(
-            'pretty_version' => '2.11.4',
-            'version' => '2.11.4.0',
+            'pretty_version' => '2.12.0',
+            'version' => '2.12.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../facade/ignition',
             'aliases' => array(),
-            'reference' => '1b8d83c5dac7c5ee8429daf284ce3f19b1d17ea2',
+            'reference' => '74dcc32a2895a126d1e5f2cd3bbab499cac66db1',
             'dev_requirement' => true,
         ),
         'facade/ignition-contracts' => array(
@@ -544,7 +544,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '7899082244e3bd55562d31c047a2e0bcac87b73c',
+            'reference' => '1e16b18f94426fdb92a7286456679eb7bddf3ddb',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
