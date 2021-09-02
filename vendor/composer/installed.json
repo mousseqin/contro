@@ -1018,17 +1018,17 @@
         },
         {
             "name": "encore/laravel-admin",
-            "version": "v1.8.13",
-            "version_normalized": "1.8.13.0",
+            "version": "v1.8.14",
+            "version_normalized": "1.8.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/z-song/laravel-admin.git",
-                "reference": "52c51ee3b7d7111e74a0f2f64a27539871126ac8"
+                "reference": "cb28d1f0f072f9cadb1589ea1a7dcf39e0fae413"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/z-song/laravel-admin/zipball/52c51ee3b7d7111e74a0f2f64a27539871126ac8",
-                "reference": "52c51ee3b7d7111e74a0f2f64a27539871126ac8",
+                "url": "https://api.github.com/repos/z-song/laravel-admin/zipball/cb28d1f0f072f9cadb1589ea1a7dcf39e0fae413",
+                "reference": "cb28d1f0f072f9cadb1589ea1a7dcf39e0fae413",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1054,7 +1054,7 @@
                 "intervention/image": "Required to handling and manipulation upload images (~2.3).",
                 "spatie/eloquent-sortable": "Required to built orderable gird."
             },
-            "time": "2021-07-15T03:43:30+00:00",
+            "time": "2021-09-01T01:15:15+00:00",
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1095,7 +1095,7 @@
             ],
             "support": {
                 "issues": "https://github.com/z-song/laravel-admin/issues",
-                "source": "https://github.com/z-song/laravel-admin/tree/v1.8.13"
+                "source": "https://github.com/z-song/laravel-admin/tree/v1.8.14"
             },
             "install-path": "../encore/laravel-admin"
         },
@@ -5090,17 +5090,17 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.8",
-            "version_normalized": "9.5.8.0",
+            "version": "9.5.9",
+            "version_normalized": "9.5.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "191768ccd5c85513b4068bdbe99bb6390c7d54fb"
+                "reference": "ea8c2dfb1065eb35a79b3681eee6e6fb0a6f273b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/191768ccd5c85513b4068bdbe99bb6390c7d54fb",
-                "reference": "191768ccd5c85513b4068bdbe99bb6390c7d54fb",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ea8c2dfb1065eb35a79b3681eee6e6fb0a6f273b",
+                "reference": "ea8c2dfb1065eb35a79b3681eee6e6fb0a6f273b",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -5147,7 +5147,7 @@
                 "ext-soap": "*",
                 "ext-xdebug": "*"
             },
-            "time": "2021-07-31T15:17:34+00:00",
+            "time": "2021-08-31T06:47:40+00:00",
             "bin": [
                 "phpunit"
             ],
@@ -5186,7 +5186,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.8"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.9"
             },
             "funding": [
                 {
