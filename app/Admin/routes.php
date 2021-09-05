@@ -12,6 +12,7 @@ Route::group([
 ], function (Router $router) {
 
     $router->get('/', 'HomeController@index')->name('home');
+    $router->get('/letcode', 'HomeController@letcode')->name('letcode');
     $router->resource('users', UsersController::class);
     $router->resource('chartjs', ChartjsController::class);
 });

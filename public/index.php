@@ -48,25 +48,6 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 
 $kernel = $app->make(Kernel::class);
 
-function d($var, $die = TRUE){
-    switch (TRUE) {
-        case is_bool($var):
-            $var = $var ? 'TRUE' : 'FALSE';
-            break;
-        case is_null($var):
-            $var = 'NULL';
-            break;
-    }
-
-    echo '<pre>';
-    echo print_r($var, TRUE);
-    echo '</pre>';
-
-    if ($die === TRUE) {
-        die();
-    }
-}
-
 $response = tap($kernel->handle(
     $request = Request::capture()
 ))->send();
