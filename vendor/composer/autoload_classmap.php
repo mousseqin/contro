@@ -3260,6 +3260,7 @@ return array(
     'League\\MimeTypeDetection\\FinfoMimeTypeDetector' => $vendorDir . '/league/mime-type-detection/src/FinfoMimeTypeDetector.php',
     'League\\MimeTypeDetection\\GeneratedExtensionToMimeTypeMap' => $vendorDir . '/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php',
     'League\\MimeTypeDetection\\MimeTypeDetector' => $vendorDir . '/league/mime-type-detection/src/MimeTypeDetector.php',
+    'League\\MimeTypeDetection\\OverridingExtensionToMimeTypeMap' => $vendorDir . '/league/mime-type-detection/src/OverridingExtensionToMimeTypeMap.php',
     'Mews\\Captcha\\Captcha' => $vendorDir . '/mews/captcha/src/Captcha.php',
     'Mews\\Captcha\\CaptchaController' => $vendorDir . '/mews/captcha/src/CaptchaController.php',
     'Mews\\Captcha\\CaptchaServiceProvider' => $vendorDir . '/mews/captcha/src/CaptchaServiceProvider.php',
