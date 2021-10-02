@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '894566f7b7347c0c0cd48f86abb52a51396b1920',
+        'reference' => '4bb2fcd6c4ff972b57c28d1ddd7044094fb38675',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -149,12 +149,12 @@
             'dev_requirement' => true,
         ),
         'facade/ignition' => array(
-            'pretty_version' => '2.13.1',
-            'version' => '2.13.1.0',
+            'pretty_version' => '2.14.0',
+            'version' => '2.14.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../facade/ignition',
             'aliases' => array(),
-            'reference' => 'e3f49bef7b4165fa4b8a9dc579e7b63fa06aef78',
+            'reference' => 'c6126e291bd44ad3fe482537a145fc70e3320598',
             'dev_requirement' => true,
         ),
         'facade/ignition-contracts' => array(
@@ -544,16 +544,16 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '894566f7b7347c0c0cd48f86abb52a51396b1920',
+            'reference' => '4bb2fcd6c4ff972b57c28d1ddd7044094fb38675',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
-            'pretty_version' => 'v1.10.2',
-            'version' => '1.10.2.0',
+            'pretty_version' => 'v1.11.0',
+            'version' => '1.11.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/sail',
             'aliases' => array(),
-            'reference' => '0b9ddae87b5867e0ca3a68f3b645079054c7ace3',
+            'reference' => '5c91d33949e43500dc1d49abc5d7c2ffb6c96f44',
             'dev_requirement' => true,
         ),
         'laravel/serializable-closure' => array(
@@ -629,12 +629,12 @@
             'dev_requirement' => true,
         ),
         'monolog/monolog' => array(
-            'pretty_version' => '2.3.4',
-            'version' => '2.3.4.0',
+            'pretty_version' => '2.3.5',
+            'version' => '2.3.5.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../monolog/monolog',
             'aliases' => array(),
-            'reference' => '437e7a1c50044b92773b361af77620efb76fff59',
+            'reference' => 'fd4380d6fc37626e2f799f29d91195040137eba9',
             'dev_requirement' => false,
         ),
         'mtdowling/cron-expression' => array(
@@ -922,8 +922,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0.0 || 2.0.0 || 3.0.0',
-                1 => '1.0|2.0',
+                0 => '1.0|2.0',
+                1 => '1.0.0 || 2.0.0 || 3.0.0',
             ),
         ),
         'psr/simple-cache' => array(
