@@ -2806,17 +2806,17 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.83.3",
-            "version_normalized": "8.83.3.0",
+            "version": "v8.83.6",
+            "version_normalized": "8.83.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b4ed222a188cca74ca9062296e525d26ae54a0ce"
+                "reference": "dffcec0cb686eafaa3b8f33db11da2cd9d69af1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b4ed222a188cca74ca9062296e525d26ae54a0ce",
-                "reference": "b4ed222a188cca74ca9062296e525d26ae54a0ce",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/dffcec0cb686eafaa3b8f33db11da2cd9d69af1c",
+                "reference": "dffcec0cb686eafaa3b8f33db11da2cd9d69af1c",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2941,7 +2941,7 @@
                 "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^2.0).",
                 "wildbit/swiftmailer-postmark": "Required to use Postmark mail driver (^3.0)."
             },
-            "time": "2022-03-03T15:14:29+00:00",
+            "time": "2022-03-29T14:41:02+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -2988,17 +2988,17 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.13.5",
-            "version_normalized": "1.13.5.0",
+            "version": "v1.13.7",
+            "version_normalized": "1.13.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "aeb6eeb55b22c328d2f301145b97288127691d48"
+                "reference": "2092e1ce6e4ba534bff443de8c3a7bb280aba121"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/aeb6eeb55b22c328d2f301145b97288127691d48",
-                "reference": "aeb6eeb55b22c328d2f301145b97288127691d48",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/2092e1ce6e4ba534bff443de8c3a7bb280aba121",
+                "reference": "2092e1ce6e4ba534bff443de8c3a7bb280aba121",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3013,7 +3013,7 @@
                 "illuminate/support": "^8.0|^9.0",
                 "php": "^7.3|^8.0"
             },
-            "time": "2022-02-17T19:59:03+00:00",
+            "time": "2022-03-11T14:11:15+00:00",
             "bin": [
                 "bin/sail"
             ],
@@ -3125,17 +3125,17 @@
         },
         {
             "name": "laravel/tinker",
-            "version": "v2.7.0",
-            "version_normalized": "2.7.0.0",
+            "version": "v2.7.2",
+            "version_normalized": "2.7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/tinker.git",
-                "reference": "5f2f9815b7631b9f586a3de7933c25f9327d4073"
+                "reference": "dff39b661e827dae6e092412f976658df82dbac5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/tinker/zipball/5f2f9815b7631b9f586a3de7933c25f9327d4073",
-                "reference": "5f2f9815b7631b9f586a3de7933c25f9327d4073",
+                "url": "https://api.github.com/repos/laravel/tinker/zipball/dff39b661e827dae6e092412f976658df82dbac5",
+                "reference": "dff39b661e827dae6e092412f976658df82dbac5",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3159,7 +3159,7 @@
             "suggest": {
                 "illuminate/database": "The Illuminate Database package (^6.0|^7.0|^8.0|^9.0)."
             },
-            "time": "2022-01-10T08:52:49+00:00",
+            "time": "2022-03-23T12:38:24+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -3196,7 +3196,7 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/tinker/issues",
-                "source": "https://github.com/laravel/tinker/tree/v2.7.0"
+                "source": "https://github.com/laravel/tinker/tree/v2.7.2"
             },
             "install-path": "../laravel/tinker"
         },
@@ -4675,17 +4675,17 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.6.0",
-            "version_normalized": "1.6.0.0",
+            "version": "1.6.1",
+            "version_normalized": "1.6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "93ebd0014cab80c4ea9f5e297ea48672f1b87706"
+                "reference": "77a32518733312af16a44300404e945338981de3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/93ebd0014cab80c4ea9f5e297ea48672f1b87706",
-                "reference": "93ebd0014cab80c4ea9f5e297ea48672f1b87706",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/77a32518733312af16a44300404e945338981de3",
+                "reference": "77a32518733312af16a44300404e945338981de3",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4702,7 +4702,7 @@
                 "ext-tokenizer": "*",
                 "psalm/phar": "^4.8"
             },
-            "time": "2022-01-04T19:58:01+00:00",
+            "time": "2022-03-15T21:29:03+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -4728,7 +4728,7 @@
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
             "support": {
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
-                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.6.0"
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.6.1"
             },
             "install-path": "../phpdocumentor/type-resolver"
         },
