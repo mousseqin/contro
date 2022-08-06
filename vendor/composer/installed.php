@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '955a51ae38ae41212d1c22a6391a59ff6ed2adfa',
+        'reference' => '18b895eff06a44167b25970e2347484dd6c5564e',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'brick/math' => array(
-            'pretty_version' => '0.9.3',
-            'version' => '0.9.3.0',
-            'reference' => 'ca57d18f028f84f777b2168cd1911b0dee2343ae',
+            'pretty_version' => '0.10.1',
+            'version' => '0.10.1.0',
+            'reference' => 'de846578401f4e58f911b3afeb62ced56365ed87',
             'type' => 'library',
             'install_path' => __DIR__ . '/../brick/math',
             'aliases' => array(),
@@ -541,7 +541,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '955a51ae38ae41212d1c22a6391a59ff6ed2adfa',
+            'reference' => '18b895eff06a44167b25970e2347484dd6c5564e',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -653,9 +653,9 @@
             'dev_requirement' => true,
         ),
         'nesbot/carbon' => array(
-            'pretty_version' => '2.60.0',
-            'version' => '2.60.0.0',
-            'reference' => '00a259ae02b003c563158b54fb6743252b638ea6',
+            'pretty_version' => '2.61.0',
+            'version' => '2.61.0.0',
+            'reference' => 'bdf4f4fe3a3eac4de84dbec0738082a862c68ba6',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nesbot/carbon',
             'aliases' => array(),
@@ -975,9 +975,9 @@
             'dev_requirement' => false,
         ),
         'ramsey/uuid' => array(
-            'pretty_version' => '4.3.1',
-            'version' => '4.3.1.0',
-            'reference' => '8505afd4fea63b81a85d3b7b53ac3cb8dc347c28',
+            'pretty_version' => '4.4.0',
+            'version' => '4.4.0.0',
+            'reference' => '373f7bacfcf3de038778ff27dcce5672ddbf4c8a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../ramsey/uuid',
             'aliases' => array(),
@@ -986,7 +986,7 @@
         'rhumsaa/uuid' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => '4.3.1',
+                0 => '4.4.0',
             ),
         ),
         'sebastian/cli-parser' => array(
