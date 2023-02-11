@@ -23,11 +23,11 @@ use Ramsey\Uuid\Provider\TimeProviderInterface;
 use Ramsey\Uuid\Type\Hexadecimal;
 use Throwable;
 
-use function ctype_xdigit;
 use function dechex;
 use function hex2bin;
 use function is_int;
 use function pack;
+use function preg_match;
 use function sprintf;
 use function str_pad;
 use function strlen;
@@ -41,9 +41,9 @@ use const STR_PAD_LEFT;
 class DefaultTimeGenerator implements TimeGeneratorInterface
 {
     public function __construct(
-        private NodeProviderInterface $nodeProvider,
-        private TimeConverterInterface $timeConverter,
-        private TimeProviderInterface $timeProvider
+        private readonly NodeProviderInterface $nodeProvider,
+        private readonly TimeConverterInterface $timeConverter,
+        private readonly TimeProviderInterface $timeProvider
     ) {
     }
 
@@ -53,7 +53,7 @@ class DefaultTimeGenerator implements TimeGeneratorInterface
      *
      * @inheritDoc
      */
-    public function generate($node = null, ?int $clockSeq = null): string
+    public function generate(Hexadecimal | int | string | null $node = null, ?int $clockSeq = null): string
     {
         if ($node instanceof Hexadecimal) {
             $node = $node->toString();
@@ -103,9 +103,10 @@ class DefaultTimeGenerator implements TimeGeneratorInterface
      * Uses the node provider given when constructing this instance to get
      * the node ID (usually a MAC address)
      *
-     * @param int|string|null $node A node value that may be used to override the node provider
+     * @param non-empty-string|positive-int|null $node A node value that may be
+     *     used to override the node provider
      *
-     * @return string 6-byte binary string representation of the node
+     * @return non-empty-string 6-byte binary string representation of the node
      *
      * @throws InvalidArgumentException
      */
@@ -120,10 +121,11 @@ class DefaultTimeGenerator implements TimeGeneratorInterface
             $node = dechex($node);
         }
 
-        if (!ctype_xdigit((string) $node) || strlen((string) $node) > 12) {
+        if (!preg_match('/^[A-Fa-f0-9]+$/', (string) $node) || strlen((string) $node) > 12) {
             throw new InvalidArgumentException('Invalid node value');
         }
 
+        /** @var non-empty-string */
         return (string) hex2bin(str_pad((string) $node, 12, '0', STR_PAD_LEFT));
     }
 }

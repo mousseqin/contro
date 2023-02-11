@@ -267,15 +267,15 @@ class Image
 	/**
 	 * Returns the `Image::XXX` constant for given file extension.
 	 */
-	public static function extensionToType(string $ext): int
+	public static function extensionToType(string $extension): int
 	{
 		$extensions = array_flip(self::Formats) + ['jpg' => self::JPEG];
-		$ext = strtolower($ext);
-		if (!isset($extensions[$ext])) {
-			throw new Nette\InvalidArgumentException("Unsupported file extension '$ext'.");
+		$extension = strtolower($extension);
+		if (!isset($extensions[$extension])) {
+			throw new Nette\InvalidArgumentException("Unsupported file extension '$extension'.");
 		}
 
-		return $extensions[$ext];
+		return $extensions[$extension];
 	}
 
 
@@ -393,7 +393,8 @@ class Image
 		$newWidth,
 		$newHeight,
 		int $flags = self::FIT
-	): array {
+	): array
+	{
 		if ($newWidth === null) {
 		} elseif (self::isPercent($newWidth)) {
 			$newWidth = (int) round($srcWidth / 100 * abs($newWidth));

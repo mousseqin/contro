@@ -19,15 +19,18 @@ use Ramsey\Uuid\Converter\NumberConverterInterface;
 use Ramsey\Uuid\Converter\TimeConverterInterface;
 use Ramsey\Uuid\Exception\InvalidArgumentException;
 use Ramsey\Uuid\Rfc4122\FieldsInterface as Rfc4122FieldsInterface;
+use Ramsey\Uuid\TimeBasedUuidInterface;
 use Ramsey\Uuid\Uuid;
 
 /**
- * Gregorian time, or version 1, UUIDs include timestamp, clock sequence, and node
- * values that are combined into a 128-bit unsigned integer
+ * Unix Epoch time, or version 7, UUIDs include a timestamp in milliseconds
+ * since the Unix Epoch, along with random bytes
+ *
+ * @link https://datatracker.ietf.org/doc/html/draft-ietf-uuidrev-rfc4122bis-00#section-5.7 UUID Version 7
  *
  * @psalm-immutable
  */
-final class UuidV7 extends Uuid implements UuidInterface
+final class UuidV7 extends Uuid implements UuidInterface, TimeBasedUuidInterface
 {
     use TimeTrait;
 
@@ -48,7 +51,7 @@ final class UuidV7 extends Uuid implements UuidInterface
         CodecInterface $codec,
         TimeConverterInterface $timeConverter
     ) {
-        if ($fields->getVersion() !== Uuid::UUID_TYPE_UNIX_TIME) {
+        if ($fields->getVersion() !== Version::UnixTime) {
             throw new InvalidArgumentException(
                 'Fields used to create a UuidV7 must represent a '
                 . 'version 7 (Unix Epoch time) UUID'
